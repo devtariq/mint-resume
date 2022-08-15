@@ -1,0 +1,52 @@
+body {
+    font-family: Montserrat, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    background-color: #fff
+}
+
+.btn-primary {
+    color: #1e1e1e;
+    background-color: #ffe600;
+    border-color: #ffe600;
+    padding: 10px 30px
+}
+
+.btn-primary:hover {
+    background-color: #1e1e1e;
+    color: #fff;
+    border-color: #1e1e1e
+}
+
+.header .navbar-light .navbar-nav .nav-link {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 30px;
+    text-transform: uppercase
+}
+
+.banner-section {
+    padding: 150px 0
+}
+
+.banner-section .banner-img {
+    text-align: right
+}
+
+.banner-txt h1 {
+    font-size: 60px;
+    line-height: 80px;
+    color: #1e1e1e;
+    font-weight: 800
+}
+
+.banner-txt h1 span {
+    display: block
+}
+
+.banner-txt p {
+    max-width: 90%;
+    margin: 30px 0
+}
+
+/*# sourceMappingURL=style.css.map */
