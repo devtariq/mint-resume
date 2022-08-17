@@ -15,6 +15,14 @@
         e.preventDefault();
         let filterValue = $(this).attr('data-filter');
         $('.masson-grid').isotope({ filter: filterValue });
-      })
+      });
+
+      $(".branding-wrap").owlCarousel({
+          loop: true,
+          autoPlay: true,
+          items: 6,
+          margin: 30,
+          nav: true,
+      });
 
 })(jQuery);

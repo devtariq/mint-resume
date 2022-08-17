@@ -1,2 +1,2 @@
-!function(t){"use strict";t(".masson-grid").isotope({itemSelector:".portfolio-item",percentPosition:!0,masonry:{columnWidth:".grid-sizer",gutter:30}}),t(".portfolio-menu ul li a").on("click",(function(i){i.preventDefault();let o=t(this).attr("data-filter");t(".masson-grid").isotope({filter:o})}))}(jQuery);
+!function(t){"use strict";t(".masson-grid").isotope({itemSelector:".portfolio-item",percentPosition:!0,masonry:{columnWidth:".grid-sizer",gutter:30}}),t(".portfolio-menu ul li a").on("click",(function(o){o.preventDefault();let i=t(this).attr("data-filter");t(".masson-grid").isotope({filter:i})})),t(".branding-wrap").owlCarousel({loop:!0,autoPlay:!0,items:6,margin:30,nav:!0})}(jQuery);
 //# sourceMappingURL=custom.js.map

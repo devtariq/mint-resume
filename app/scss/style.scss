@@ -113,3 +113,45 @@ $color: #1e1e1e;
     background-clip: content-box;
     width: 31.33%;
 }
+.branding-area {
+    padding: 100px 0;
+    .owl-carousel {
+        .owl-item img {
+           width: auto;
+           margin: 0 auto;
+       }
+   }
+}
+
+.owl-dots button span {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    padding: 5px;
+    background: #ffe600;
+    margin: 0 6px;
+    border-radius: 50%;
+}
+
+.owl-dots {text-align: center;}
+
+.owl-nav button {
+    position: absolute;
+    left: -50px;
+    top: 20%;
+    display: inline-block;
+    &.owl-next{
+        left: auto;
+        right: -50px;
+    }
+}
+
+.owl-nav button span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #ffe600d6;
+    line-height: 36px;
+    color: #fff;
+    font-size: 29px;
+}
