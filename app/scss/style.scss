@@ -7,10 +7,27 @@ body{
 h1,h2,h3,h4,h5,h6{
     font-weight: 800;
 }
+a{
+    text-decoration: none;
+    color: #1e1e1e;
+    font-weight: 600;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1170px;
+}
 $color: #1e1e1e;
+.section-header {
+    max-width: 55%;
+    p{
+        margin-top: 30px;
+    }
+}
 .sec-title{
     font-weight: 800;
     font-size: 58px;
+}
+.section-padding{
+    padding: 100px 0;
 }
 .btn-primary {
     color: #1e1e1e;
@@ -154,4 +171,48 @@ $color: #1e1e1e;
     line-height: 36px;
     color: #fff;
     font-size: 29px;
+}
+
+.team-card {
+    position: relative;
+    .member-info {
+        background: #ffe600;
+        position: absolute;
+        bottom: 0;
+        padding: 20px 20px 10px 35px;
+        width: 75%;
+        h3 {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        span{
+            color: #fff;
+        }
+    }
+}
+
+.about-txt {
+    a{
+        color: #1e1e1e;
+        margin-top: 40px;
+        display: block;
+    }
+}
+
+.contact-form {
+    max-width: 90%;
+    h3{
+        margin-bottom: 30px;
+    }
+    .form-group{
+        margin-bottom: 20px;
+        input,textarea{
+            background-color: #fafafa;
+            border: 0 none;
+            padding: 12px 20px;
+        }
+        textarea{
+            min-height: 180px;
+        }
+    }
 }
