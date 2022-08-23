@@ -45,7 +45,7 @@ $color: #1e1e1e;
 }
 
 .section-padding {
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 .btn-primary {
@@ -62,11 +62,28 @@ $color: #1e1e1e;
 }
 
 .header {
-    .navbar-light .navbar-nav .nav-link {
-        font-size     : 16px;
-        font-weight   : 500;
-        padding       : 15px 30px;
-        text-transform: uppercase;
+    .navbar-light {
+        transition: .4s;
+
+        .navbar-nav .nav-link {
+            font-size     : 16px;
+            font-weight   : 500;
+            padding       : 15px 30px;
+            text-transform: uppercase;
+        }
+    }
+}
+
+header.header.scroll-on .navbar {
+    background: #ffe600;
+    padding   : 0;
+    transition: .4s;
+
+    a.navbar-brand {
+        img {
+            height    : 40px;
+            transition: .4s;
+        }
     }
 }
 
@@ -275,7 +292,8 @@ $color: #1e1e1e;
 
     p {
         margin: 0;
-        a{
+
+        a {
             font-weight: 400;
         }
     }
@@ -285,27 +303,45 @@ $color: #1e1e1e;
         margin-bottom: 30px;
     }
 }
+.about-sec{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.contact-sec{
+    padding: 40px 0 50px;
+}
+
 .contact-share {
     text-align: center;
+
     span {
-        margin: 0 25px;
+        margin   : 0 25px;
         font-size: 30px;
     }
 }
+
 .footer-copyrights {
     background: #000;
-    p{
-        color: #fff;
+
+    p {
+        color      : #fff;
         padding-top: 10px;
         margin-left: 20px;
-        font-size: 13px;
+        font-size  : 13px;
     }
 }
+
 a#scrollUp {
-    right: 80px;
-    bottom: 40px;
-    color: #fff;
+    right         : 80px;
+    bottom        : 40px;
+    color         : #fff;
     text-transform: uppercase;
-    font-weight: 500;
-    font-size: 12px;
+    font-weight   : 500;
+    font-size     : 12px;
+}
+
+a.navbar-brand {
+    img {
+        transition: .4s;
+    }
 }

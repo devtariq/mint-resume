@@ -1,5 +1,28 @@
 (function ($) {
     "use strict";
+   
+    // sticky menu
+    let header = $('.header');
+    var win = $(window);
+
+    win.on('scroll', function() {
+       var scroll = win.scrollTop();
+       if (scroll < 1) {
+           header.removeClass("scroll-on");
+       } else {
+           header.addClass("scroll-on");
+       }
+    });
+
+    $('header .navbar li.smoth-menu a').on('click', function(e) {
+      var $anchor = $(this);
+      var headerH = '80';
+      $('html,body').stop().animate(
+        {
+          scrollTop: $($anchor.attr('href')).offset().top - headerH + "px"
+      }, 500, 'easeOutQuad');
+      event.preventDefault();
+  });
 
     $('.masson-grid').isotope({
         itemSelector: '.portfolio-item',

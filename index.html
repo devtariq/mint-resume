@@ -21,6 +21,7 @@
 
     <!-- Style css -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -41,12 +42,12 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Work</a>
+                        <li class="nav-item smoth-menu">
+                            <a class="nav-link active" aria-current="page" href="#work">Work</a>
                         </li>
-                        <li class="nav-item"> <a class="nav-link" href="#">About</a></li>
-                        <li class="nav-item"> <a class="nav-link" href="#">Blog</a></li>
-                        <li class="nav-item"> <a class="nav-link" href="#">Contact</a></li>
+                        <li class="nav-item smoth-menu"> <a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item smoth-menu"> <a class="nav-link" href="#blog">Blog</a></li>
+                        <li class="nav-item smoth-menu"> <a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
 
                 </div>
@@ -59,7 +60,7 @@
     <div class="banner-section">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-6">
                     <div class="banner-txt">
                         <h1><span>Hello!!!</span>
                             We Are Creative
@@ -69,7 +70,7 @@
                         <a href="#" class="btn btn-primary">SEND MESSAGE</a>
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-6 col-sm-6">
                     <div class="banner-img">
                         <img class="img-fluid" src="images/banner.png" alt="">
                     </div>
@@ -80,7 +81,7 @@
     <!-- Banner Section End -->
 
     <!-- Portfolio Section Start -->
-    <section class="portfolio">
+    <section class="portfolio section-padding" id="work">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -176,7 +177,7 @@
     <!-- Branding Section End -->
 
     <!-- About Section Start -->
-    <section class="about-sec">
+    <section class="about-sec" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -220,7 +221,7 @@
     <!-- About Section End -->
 
     <!-- Contact Section Start -->
-    <footer class="contact-sec pt-5">
+    <footer class="contact-sec section-padding pb-0" id="contact">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
@@ -309,6 +310,7 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCe2q1gFSd75jKUnTDPq0nZWaMlEu6vL30"></script>
     <script src="js/google-map.js"></script>
     <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
     <script src="js/custom.js"></script>
 
 </body>
