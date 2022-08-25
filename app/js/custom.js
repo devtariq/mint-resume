@@ -53,9 +53,22 @@
       $(".branding-wrap").owlCarousel({
           loop: true,
           autoPlay: true,
-          items: 6,
           margin: 30,
-          nav: true,
+          responsiveClass:true,
+          responsive:{
+              0:{
+                  items: 1,
+                  nav:true,
+                  dots: false,
+              },
+              600:{
+                  items:3,
+              },
+              1000:{
+                  items:6,
+              }
+          }
+
       });
 
       $.scrollUp({

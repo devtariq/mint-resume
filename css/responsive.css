@@ -7,9 +7,81 @@
     .sec-title {
         font-size: 40px;
     }
+    .grid-sizer, .portfolio-item {
+        width: 30.33%;
+    }
 }
 
 /* Mobile Layout */
 @media only screen and  (max-width: 767px)   {
-
+    .header .navbar-light {
+        background: #ffe600;
+    }
+    .navbar-toggler {
+        border: 0 none;
+    }
+    button:focus:not(:focus-visible) {
+        border: 0 none;
+        box-shadow: none;
+    }
+    .navbar-nav{
+        margin-top: 30px;
+    }
+    .banner-txt h1 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .banner-img{
+        margin-bottom: 30px;
+    }
+    .banner-section {
+        padding: 100px 0;
+    }
+    .section-padding {
+        padding: 50px 0;
+    }
+    .sec-title {
+        font-size: 30px;
+    }
+    .grid-sizer, .portfolio-item {
+        width: 100%;
+    }
+    .portfolio-menu ul li a {
+        padding: 10px 15px;
+    }
+    .owl-nav button {
+        left: 0px;
+    }
+    .owl-nav button.owl-next {
+        right: 0px;
+    }
+    .section-header {
+        max-width: 100%;
+    }
+    .team-card {
+        margin-bottom: 30px;
+    }
+    .about-txt.p-4.ms-4 {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    #google-map{
+        margin-top: 30px;
+        height: 350px;
+    }
+    .contact-widget {
+        float: none;
+        width: 100%;
+        padding: 35px 50px;
+    }
+    .contact-share {
+        margin-top: 30px;
+    }
+    a#scrollUp {
+       opacity: 0;
+       visibility: hidden;
+    }
+    header.header.scroll-on .navbar {
+        padding: 7px 0;
+    }
 }
